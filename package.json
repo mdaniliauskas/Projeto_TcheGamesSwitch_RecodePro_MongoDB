@@ -13,6 +13,8 @@
     "ejs": "^2.7.4",
     "express": "^4.17.1",
     "express-react-views": "^0.11.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.11.15",
     "mysql": "^2.18.1",
     "node-fetch": "^2.6.1",
     "react": "^17.0.1",
@@ -49,5 +51,18 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
-  }
+  },
+  "description": "Mais um repositório do Projeto Tche Games Switch",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tchelauskas/Projeto_TcheGamesSwitch_RecodePro_MongoDB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tchelauskas/Projeto_TcheGamesSwitch_RecodePro_MongoDB/issues"
+  },
+  "homepage": "https://github.com/tchelauskas/Projeto_TcheGamesSwitch_RecodePro_MongoDB#readme"
 }
