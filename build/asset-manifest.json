@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.492248e2.chunk.css",
+    "main.js": "/static/js/main.567ded2e.chunk.js",
+    "main.js.map": "/static/js/main.567ded2e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.89b32909.js",
+    "runtime-main.js.map": "/static/js/runtime-main.89b32909.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.482eb21e.chunk.js": "/static/js/2.482eb21e.chunk.js",
+    "static/js/2.482eb21e.chunk.js.map": "/static/js/2.482eb21e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.492248e2.chunk.css.map": "/static/css/main.492248e2.chunk.css.map",
+    "static/js/2.482eb21e.chunk.js.LICENSE.txt": "/static/js/2.482eb21e.chunk.js.LICENSE.txt",
+    "static/media/Email_logo.jpg": "/static/media/Email_logo.da7ea6bb.jpg",
+    "static/media/MarioKart.jpg": "/static/media/MarioKart.0886d90b.jpg",
+    "static/media/MarioOdissey.jpg": "/static/media/MarioOdissey.f738ba05.jpg",
+    "static/media/NSwitch_Tarja.png": "/static/media/NSwitch_Tarja.fc1f0fe5.png",
+    "static/media/Pelicula.jpg": "/static/media/Pelicula.2a2db982.jpg",
+    "static/media/PokemonSword.jpg": "/static/media/PokemonSword.f16b3677.jpg",
+    "static/media/Pro_Controller.jpg": "/static/media/Pro_Controller.21faeb45.jpg",
+    "static/media/Switch_Lite_Amarelo.jpg": "/static/media/Switch_Lite_Amarelo.a3e085ee.jpg",
+    "static/media/Switch_Lite_Cinza.jpg": "/static/media/Switch_Lite_Cinza.08f2874e.jpg",
+    "static/media/Switch_Lite_Coral.jpg": "/static/media/Switch_Lite_Coral.d2da1b01.jpg",
+    "static/media/Switch_Lite_Turquesa.jpg": "/static/media/Switch_Lite_Turquesa.61a66aee.jpg",
+    "static/media/TGW_Logo.png": "/static/media/TGW_Logo.d7bab923.png",
+    "static/media/TGW_Logo2.png": "/static/media/TGW_Logo2.d7bab923.png",
+    "static/media/TGW_Logo_Alt.png": "/static/media/TGW_Logo_Alt.0e3228f7.png",
+    "static/media/TGW_Logo_Alt2.png": "/static/media/TGW_Logo_Alt2.0e3228f7.png",
+    "static/media/Whats_logo.jpg": "/static/media/Whats_logo.fcaf4c91.jpg",
+    "static/media/pagamentos_logo.png": "/static/media/pagamentos_logo.e4ca63a1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89b32909.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.482eb21e.chunk.js",
+    "static/css/main.492248e2.chunk.css",
+    "static/js/main.567ded2e.chunk.js"
+  ]
+}

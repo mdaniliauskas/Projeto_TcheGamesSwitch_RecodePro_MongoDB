@@ -1,0 +1,2 @@
+body{padding-top:80px}a,h3{color:red}.nav-item{display:flex;justify-content:center}.active{border-bottom:2px solid #fff}.precoCheio{text-decoration:line-through;font-size:15px}.precoDesconto{color:red}#bloco{display:inline-table;width:250px;height:250px;text-align:center}#lateral{position:fixed;top:50px;bottom:0;left:0;z-index:100;padding:50px 50px 0 42px;box-shadow:inset -1px 0 0 rgba(0,0,0,.1);color:#6495ed}#largura,#lateral{min-height:100vh!important}#largura{width:100vw;margin-left:-1rem;transition:margin .25s ease-out}
+/*# sourceMappingURL=main.492248e2.chunk.css.map */

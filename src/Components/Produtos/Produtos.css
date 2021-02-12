@@ -1,0 +1,37 @@
+.precoCheio {
+    text-decoration: line-through;
+    font-size: 15px;
+} 
+
+.precoDesconto {
+    color: red;
+}
+
+#bloco {   
+    display: inline-table;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+#lateral {
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    left: 0;
+    min-height: 100vh !important;
+    z-index: 100;
+    padding: 50px 50px 0 42px;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    color: cornflowerblue;
+}
+
+#largura {
+    min-height: 100vh !important;
+        width: 100vw;
+        margin-left: -1rem;
+        -webkit-transition: margin .25s ease-out;
+        -moz-transition: margin .25s ease-out;
+        -o-transition: margin .25s ease-out;
+        transition: margin .25s ease-out;
+}
