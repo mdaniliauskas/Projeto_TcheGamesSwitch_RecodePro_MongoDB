@@ -9,7 +9,7 @@ function connect() {
     }).catch((error) => {
         console.log(`Erro de conexão - ${error} `)
     })
-    // , {useNewUrlParser: true}
+    
 }
 
 module.exports = connect()
