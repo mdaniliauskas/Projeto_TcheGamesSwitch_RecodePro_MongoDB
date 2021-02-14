@@ -52,8 +52,9 @@ export default function Pedidos(props) {
 
                     <Form.Label>Selecione o produto desejado:</Form.Label>
                     <Form.Control onChange={alteracao} as="select" id="produto_id" name="produto_id">
+                    <option value=""></option>    
                     <option value="Nintendo Switch - Vermelho e Azul">Nintendo Switch - Vermelho e Azul</option>
-                    <option value=">Nintendo Switch - Cinza">Nintendo Switch - Cinza</option>
+                    <option value="Nintendo Switch - Cinza">Nintendo Switch - Cinza</option>
                     <option value="Nintendo Switch Lite - Amarelo">Nintendo Switch Lite - Amarelo</option>
                     <option value="Nintendo Switch Lite - Cinza">Nintendo Switch Lite - Cinza</option>
                     <option value="Nintendo Switch Lite - Coral">Nintendo Switch Lite - Coral</option>
