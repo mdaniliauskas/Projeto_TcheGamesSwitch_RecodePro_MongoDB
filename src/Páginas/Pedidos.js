@@ -27,7 +27,7 @@ export default function Pedidos(props) {
         // const dados = await resultado.json();
         // setForm(dados) 
         
-        const resultado = await fetch("http://localhost:3001/insertpedido", {method: "POST", headers: {"Content-Type": "application/json",},body:JSON.stringify(form)});
+        const resultado = await fetch("http://localhost:3001/insertpedidos", {method: "POST", headers: {"Content-Type": "application/json",},body:JSON.stringify(form)});
         
         alert("Pedido enviado com sucesso!")
     };   

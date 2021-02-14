@@ -50,19 +50,20 @@
     ]
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "webpack": "^4.44.2"
   },
   "description": "Mais um repositório do Projeto Tche Games Switch",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tchelauskas/Projeto_TcheGamesSwitch_RecodePro_MongoDB.git"
+    "url": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tchelauskas/Projeto_TcheGamesSwitch_RecodePro_MongoDB/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/tchelauskas/Projeto_TcheGamesSwitch_RecodePro_MongoDB#readme"
+  "homepage": ""
 }
