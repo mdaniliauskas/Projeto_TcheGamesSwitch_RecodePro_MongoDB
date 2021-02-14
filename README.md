@@ -13,6 +13,6 @@ O objetivo nesse projeto foi:
 * Realizar o clone deste projeto;
 * Instalar as dependências na pasta raíz com o comando: npm install;
 * Instalar o banco de dados (script na pasta /src/bancodados/tchegames0102);
-* Instalar o SGDB MongoDB - a criação da base de dados se dá pelo código deste projeto.
+* Instalar o SGBD MongoDB - a criação da base de dados se dá pelo código deste projeto.
 * Executar o servidor Node JS contido na pasta src/ com o commando nodemon servidor.js;
 * Executar o projeto React JS com o comando npm start;
