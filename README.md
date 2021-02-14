@@ -6,7 +6,7 @@ Esse projeto é parte do curso de desenvolvedor Full Stack da Recode Pro 2020.
 
 O objetivo nesse projeto foi:
 * Realizar o refactory (reconstrução) do projeto, substituindo pelo menos 1 (uma) funcionalidade para salvar e retornar dados do banco de dados NoSQL.
-* Foi utilizado o MONGODB no formulário de pedidos e seu retorno se dá na página de controle.
+=> Foi utilizado o MONGODB no formulário de pedidos e seu retorno se dá na página de controle.
 
 
 ## Instruções de instalação e execução:
