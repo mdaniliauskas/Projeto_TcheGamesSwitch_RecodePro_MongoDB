@@ -26,5 +26,4 @@ export default function Controle(props) {
         </Container>
     );
 }
-
-
+g

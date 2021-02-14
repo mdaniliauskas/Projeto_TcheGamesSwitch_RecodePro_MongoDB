@@ -52,21 +52,21 @@ export default function Pedidos(props) {
 
                     <Form.Label>Selecione o produto desejado:</Form.Label>
                     <Form.Control onChange={alteracao} as="select" id="produto_id" name="produto_id">
-                    <option value="1">Nintendo Switch - Vermelho e Azul</option>
-                    <option value="2">Nintendo Switch - Cinza</option>
-                    <option value="3">Nintendo Switch Lite - Amarelo</option>
-                    <option value="4">Nintendo Switch Lite - Cinza</option>
-                    <option value="5">Nintendo Switch Lite - Coral</option>
-                    <option value="6">Nintendo Switch Lite - Turquesa</option>
-                    <option value="7">Super Mario Odyssey</option>
-                    <option value="8">Mario Kart</option>
-                    <option value="9">The Legend Of Zelda Breath Of The Wild</option>
-                    <option value="10">Sonic Forces</option>
-                    <option value="11">Pokémon Sword</option>
-                    <option value="12">Dock Station Charging</option>
-                    <option value="13">Organizador de jogos</option>
-                    <option value="14">Película de vidro ultra-resistente</option>
-                    <option value="15">Pro Contoller Nintendo Switch</option>
+                    <option value="Nintendo Switch - Vermelho e Azul">Nintendo Switch - Vermelho e Azul</option>
+                    <option value=">Nintendo Switch - Cinza">Nintendo Switch - Cinza</option>
+                    <option value="Nintendo Switch Lite - Amarelo">Nintendo Switch Lite - Amarelo</option>
+                    <option value="Nintendo Switch Lite - Cinza">Nintendo Switch Lite - Cinza</option>
+                    <option value="Nintendo Switch Lite - Coral">Nintendo Switch Lite - Coral</option>
+                    <option value="Nintendo Switch Lite - Turquesa">Nintendo Switch Lite - Turquesa</option>
+                    <option value="Super Mario Odyssey">Super Mario Odyssey</option>
+                    <option value="Mario Kart">Mario Kart</option>
+                    <option value="The Legend Of Zelda Breath Of The Wild">The Legend Of Zelda Breath Of The Wild</option>
+                    <option value="Sonic Forces">Sonic Forces</option>
+                    <option value="Pokémon Sword">Pokémon Sword</option>
+                    <option value="Dock Station Charging">Dock Station Charging</option>
+                    <option value="Organizador de jogos3">Organizador de jogos</option>
+                    <option value="Película de vidro ultra-resistente">Película de vidro ultra-resistente</option>
+                    <option value="Pro Contoller Nintendo Switch">Pro Contoller Nintendo Switch</option>
                     </Form.Control>
 
                     <Form.Label>Quantidade:</Form.Label>

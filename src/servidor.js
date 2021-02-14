@@ -1,5 +1,5 @@
-const express = require('express');
-const app = express();
+const express = require('express')
+const app = express()
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const conexao = require('./bancodados/conexao');
@@ -7,8 +7,9 @@ const conexao = require('./bancodados/conexao');
 app.use(cors({origin: 'http://localhost:3000'}));
 
 app.use(bodyParser.urlencoded({ extend: true}));
-app.use(express.json());
+const mongoose = require('mongoose')
 
+app.use(express.json())
 
 app.get('/selecttodos', (req, res) => {
     conexao.query("SELECT * FROM produtos;", (error, result) => {
@@ -36,34 +37,31 @@ app.get('/selectacessorios', (req, res) => {
 });
 
 
+require('./models/Pedido')
+const Pedido = mongoose.model('pedidos', 'Pedido')
 
+require('./db/connect')
 
-app.post("/insertpedido",(req,res) => {
-    let pedido = []
-    
-    pedido.push({
+app.get('/insertpedidos', async (req, res) => {
+    const pedidosResponse = await Pedido.find()
+    const pedidosJson = await pedidosResponse
+    return res.json(pedidosJson)
+});
+
+app.post('/insertpedidos', async (req, res) => {
+    const novoPedido = new Pedido({
         nomeClientes: req.body.nomeClientes,
         email: req.body.email,
         telefone: req.body.telefone,
         endereco: req.body.endereco,
         produto_id: req.body.produto_id,
         quantidade: req.body.quantidade
-    })
-    conexao.query('INSERT INTO pedidos SET ?', pedido, () =>{ 
-      
-    })
-  });
+    });
 
-  app.get("/selectcontrole", (req,res) => {
-    conexao.query("SELECT * FROM pedidos INNER JOIN produtos on pedidos.produto_id = produtos.idprodutos;",(error,result) => {
-      res.json(result)
-    })
-  });
+    novoPedido.save()
+    res.json({Mensagem: "Pedido enviado com sucesso", Pedido: novoPedido})
+
+});
 
 
-
-
-
-
-
-app.listen(3001);
+app.listen(3001)
