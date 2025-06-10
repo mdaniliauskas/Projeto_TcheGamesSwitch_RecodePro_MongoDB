@@ -1,18 +1,35 @@
-# Projeto Tche Games Switch - Versão React JS e Node JS com  MongoDB
+# Projeto TcheGamesSwitch - MongoDB ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
-Mais um repositório do Projeto Tche Games Switch
+> **Breve descrição:**  
+> Projeto de integração de dados utilizando MongoDB, parte do sistema TcheGamesSwitch para o programa RecodePro.
 
-Esse projeto é parte do curso de desenvolvedor Full Stack da Recode Pro 2020.
+## 🚀 Tecnologias
 
-O objetivo nesse projeto foi:
-* Realizar o refactory (reconstrução) do projeto, substituindo pelo menos 1 (uma) funcionalidade para salvar e retornar dados do banco de dados NoSQL.
-=> Foi utilizado o MONGODB no formulário de Pedidos e seu retorno se dá na página de Controle.
+- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+- ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
+## 📚 Observação
 
-## Instruções de instalação e execução:
-* Realizar o clone deste projeto;
-* Instalar as dependências na pasta raíz com o comando: npm install;
-* Instalar o banco de dados (script na pasta /src/bancodados/tchegames0102);
-* Instalar o SGBD MongoDB - a criação da base de dados se dá pelo código deste projeto.
-* Executar o servidor Node JS contido na pasta src/ com o commando nodemon servidor.js;
-* Executar o projeto React JS com o comando npm start;
+Projeto entregue como parte do programa **RecodePro**.
+
+## ⚙️ Como executar
+
+Consulte as instruções no repositório para rodar a aplicação.
+
+## 📄 Status
+
+> ✅ Finalizado
+
+---
+
+<p align="center">
+  <a href="https://github.com/mdaniliauskas">
+    <img src="https://img.shields.io/badge/Portfólio%20GitHub-100000?style=flat-square&logo=github&logoColor=white" alt="Portfólio GitHub">
+  </a>
+  <a href="mailto:marcelo.daniliauskas@gmail.com">
+    <img src="https://img.shields.io/badge/E--mail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="E-mail">
+  </a>
+  <a href="https://www.linkedin.com/in/mdaniliauskas">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+</p>
